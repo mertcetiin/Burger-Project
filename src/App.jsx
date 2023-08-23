@@ -10,7 +10,7 @@ function App() {
 
 
   return (
-    <div className='headerLink'>
+    <div className='App'>
       <Navbar />
       <Routes>
         <Route path='/homePage' element={<HomePage />} />
