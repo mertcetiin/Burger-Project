@@ -1,23 +1,40 @@
 import React from 'react'
-import banner from '../assets/img/banner.png'
+import BannerImage from '../assets/img/banner.png'
+import '../styles/Communication.css'
 
-function Communication() {
+export const Communication = () => {
     return (
-        <>
-            <div className='communcationDiv'>
-                <img src={banner} />
+
+        <div className="contact">
+            <div
+                className="leftSide"
+                style={{ backgroundImage: `url(${BannerImage})` }}
+            ></div>
+            <div className="rightSide">
                 <h1>Bizimle İletişime Geçin</h1>
-                <div className='inputDiv'>
+                <form>
                     <label>Ad Soyad</label>
-                    <input placeholder='Lütfen adınızı soyadınızı giriniz...' />
+                    <input
+                        type="text"
+                        name="name"
+                        placeholder="Lütfen adınızı soyadınızı giriniz..."
+                    />
                     <label>Email</label>
-                    <input placeholder='Lütfen emailinizi giriniz...' />
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Lütfen emailinizi giriniz..."
+                    />
                     <label>Mesajınız</label>
-                    <textarea placeholder='Lütfen mesajınızı giriniz...' />
-                    <button>Gönder</button>
-                </div>
+                    <textarea
+                        rows="6"
+                        name="message"
+                        placeholder="Lütfen mesajınızı giriniz..."
+                    ></textarea>
+                </form>
             </div>
-        </>
+        </div>
+
     )
 }
 
