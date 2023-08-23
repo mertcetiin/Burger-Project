@@ -12,6 +12,7 @@
 }
 
 .menuList {
+    text-align: center;
     width: 70vw;
     height: auto;
     display: grid;
