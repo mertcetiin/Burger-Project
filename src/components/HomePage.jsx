@@ -1,6 +1,5 @@
 import React from 'react'
 import banneryeni from '../assets/img/banneryeni.jpg'
-import burgerlogo from '../assets/img/burgerlogo.png'
 import { useNavigate } from "react-router-dom";
 import { AiFillInstagram, AiFillFacebook } from 'react-icons/ai';
 import { FaTwitter } from 'react-icons/fa';
@@ -11,7 +10,6 @@ function HomePage() {
 
     return (
         <div>
-            <img className='burgerLogo' src={burgerlogo} />
             <img className='bannerYeni' src={banneryeni} />
             <button onClick={() => navigate('/menu')}>Sipariş Ver</button>
 
