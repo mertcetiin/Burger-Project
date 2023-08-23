@@ -5,6 +5,7 @@ import HomePage from './components/HomePage';
 import Menu from './components/Menu';
 import AboutUs from './components/AboutUs';
 import Communication from './components/Communication';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/aboutUs' element={<AboutUs />} />
         <Route path='/communication' element={<Communication />} />
       </Routes>
+      <Footer />
     </div>
   )
 }

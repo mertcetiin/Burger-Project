@@ -1,7 +1,6 @@
 import React from 'react'
 import burger from '../assets/img/burger.jpg'
-import { AiFillInstagram, AiFillFacebook } from 'react-icons/ai';
-import { FaTwitter } from 'react-icons/fa';
+
 
 function Menu() {
 
@@ -104,12 +103,6 @@ function Menu() {
                     <h2>{item.price}</h2>
                 </div>
             ))}
-            <div className='footer-icons'>
-                <h1><AiFillFacebook /></h1>
-                <h1><AiFillInstagram /></h1>
-                <h1><FaTwitter /></h1>
-            </div>
-            <h3 className='footer-h3'>Tüm hakları saklıdır | BurgerYiyelim</h3>
         </div>
 
     )

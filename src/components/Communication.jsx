@@ -1,7 +1,5 @@
 import React from 'react'
 import banner from '../assets/img/banner.png'
-import { AiFillInstagram, AiFillFacebook } from 'react-icons/ai';
-import { FaTwitter } from 'react-icons/fa';
 
 function Communication() {
     return (
@@ -19,12 +17,6 @@ function Communication() {
                     <button>Gönder</button>
                 </div>
             </div>
-            <div className='footer-icons'>
-                <h1><AiFillFacebook /></h1>
-                <h1><AiFillInstagram /></h1>
-                <h1><FaTwitter /></h1>
-            </div>
-            <h3 className='footer-h3'>Tüm hakları saklıdır | BurgerYiyelim</h3>
         </>
     )
 }
