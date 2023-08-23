@@ -10,15 +10,18 @@ function HomePage() {
 
     return (
         <div>
-            <img className='bannerYeni' src={banneryeni} />
-            <button onClick={() => navigate('/menu')}>Sipariş Ver</button>
+            <div className='homeDiv'>
+                <img className='bannerYeni' src={banneryeni} />
+                <button className='orderBtn' onClick={() => navigate('/menu')}>Sipariş Ver</button>
+            </div>
 
             <div className='footer-icons'>
                 <h1><AiFillFacebook /></h1>
                 <h1><AiFillInstagram /></h1>
                 <h1><FaTwitter /></h1>
-                <h3>Tüm hakları saklıdır | BurgerYiyelim</h3>
             </div>
+            <h3 className='footer-h3'>Tüm hakları saklıdır | BurgerYiyelim</h3>
+
         </div>
     )
 }

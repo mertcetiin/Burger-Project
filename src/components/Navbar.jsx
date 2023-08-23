@@ -4,7 +4,7 @@ import burgerlogo from '../assets/img/burgerlogo.png'
 
 function Navbar() {
     return (
-        <nav className='navLink'>
+        <nav className='navlinkDiv'>
             <img className='burgerLogo' src={burgerlogo} />
             <NavLink to='/communication'>Communication</NavLink>
             <NavLink to='/aboutUs'>About Us</NavLink>

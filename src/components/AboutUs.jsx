@@ -15,8 +15,8 @@ function AboutUs() {
                 <h1><AiFillFacebook /></h1>
                 <h1><AiFillInstagram /></h1>
                 <h1><FaTwitter /></h1>
-                <h3>Tüm hakları saklıdır | BurgerYiyelim</h3>
             </div>
+            <h3 className='footer-h3'>Tüm hakları saklıdır | BurgerYiyelim</h3>
         </div>
     )
 }

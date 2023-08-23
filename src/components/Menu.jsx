@@ -94,10 +94,10 @@ function Menu() {
     ]
 
     return (
-        <div className='menu-header'>
+        <div className='menuDiv'>
             <h1 className='menu-h1'>Burgerlerimiz</h1>
             {burgerMenu.map((item) => (
-                <div key={item.id}>
+                <div className='menuCard' key={item.id}>
                     <img src={burger} />
                     <h1>{item.name}</h1>
                     <h4>{item.info}</h4>
@@ -108,8 +108,8 @@ function Menu() {
                 <h1><AiFillFacebook /></h1>
                 <h1><AiFillInstagram /></h1>
                 <h1><FaTwitter /></h1>
-                <h3>Tüm hakları saklıdır | BurgerYiyelim</h3>
             </div>
+            <h3 className='footer-h3'>Tüm hakları saklıdır | BurgerYiyelim</h3>
         </div>
 
     )
